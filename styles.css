@@ -1,0 +1,63 @@
+/* Container style to center everything */
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the album cover */
+.album-cover img {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Style the buttons */
+.controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Change button color on hover */
+.controls button:hover {
+    background-color: #45a049;
+}
+
+/* Style the timer text */
+#current-time {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Style the seek bar */
+#seekBar {
+    width: 80%;
+    margin-top: 20px;
+    height: 10px;
+    border-radius: 5px;
+    background: #ddd;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+#seekBar::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#seekBar::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    border-radius: 50%;
+    cursor: pointer;
+}
